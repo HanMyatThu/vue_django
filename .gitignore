@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migration files (optional; keep if you want to version control migrations)
+*/migrations/
+
+# Environment Variables file
+.env
+
+# SQLite database file (exclude for security if using SQLite)
+db.sqlite3
+
+# macOS System files
+.DS_Store
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings (optional)
+.vscode/
+
+# Static files (if you build static files locally, like with `collectstatic`)
+staticfiles/
+
+# Media files (optional, if you don't want to store uploaded files)
+media/
+
+# Coverage reports
+htmlcov/
+*.cover
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# MyPy cache
+.mypy_cache/
+
+# PyInstaller
+# Usually these files are written by a Python script from a template
+*.manifest
+*.spec
+
+# C extensions
+*.so
+
+# Test and cache folders
+.tox/
+.nox/
+pytest_cache/
+cache/
+
+# Pylint report
+pylint_report.txt
